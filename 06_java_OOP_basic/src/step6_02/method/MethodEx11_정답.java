@@ -4,10 +4,51 @@ package step6_02.method;
 /*
 class Ex11{
 	
-	int test1(int[] arr) { return 0; }
-	int test2(int[] arr) { return 0; }
-	int test3(int[] arr) { return 0; }
-	int test4(int[] arr) { return 0; }
+	int test1(int[] arr) {
+	
+	 int tot = 0;
+	 
+	 for (int i=0; i<arr.length; i++){
+	 tot += arr[i];
+	 }
+	 
+	 return tot;
+ }
+	int test2(int[] arr) {
+	
+	 int tot = 0;
+	 
+	 for (int i=0; i<arr.length; i++){
+	 	if (arr[i] % 4 ==0){
+	 		tot += arr[i];
+	 	}
+	 }
+	 
+	 return tot;
+ }
+	int test3(int[] arr) {
+	
+	 int cnt = 0;
+	 
+	 for (int i=0; i<arr.length; i++){
+	 	if (arr[i] % 4 == 0){
+	 		cnt++;
+	 	}
+	 }
+	 
+	 return cnt;
+ }
+	int test4(int[] arr) {
+	
+	 int cnt = 0;
+	 
+	 for (int i=0; i<arr.length; i++){
+	 	if (arr[i] % 2 ==0){
+	 		cnt++;
+	 	}
+	 }
+	 return cnt;
+ }
 
 }
 */

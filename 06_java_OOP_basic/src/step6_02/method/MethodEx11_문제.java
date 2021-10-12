@@ -24,8 +24,29 @@ class Ex11{
 	 
 	 return tot;
  }
-	int test3(int[] arr) { return 0; }
-	int test4(int[] arr) { return 0; }
+	int test3(int[] arr) {
+	
+	 int cnt = 0;
+	 for (int i=0; i<arr.length; i++){
+	 	if (arr[i] % 4 == 0){
+	 		cnt ++;
+	 	}
+	 }
+	 
+	 return cnt;
+ }
+	int test4(int[] arr) {
+	
+	 int cnt = 0;
+	 
+	 for (int i=0; i<arr.length; i++){
+	 	if (arr[i] % 2 == 0){
+	 		cnt++;
+	 	}
+	 }
+	 
+	 return 0;
+ }
 
 }
 */

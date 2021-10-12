@@ -1,18 +1,19 @@
 package step6_02.method;
 
 import java.util.Scanner;
-
+/*
 class Ex05{
 
 	void test1() {
-	
+		
 		int total = 0;
-		for (int i=1; i<=5; i++){
+		
+		for (int i=1; i<=5; i++) {
 			total += i;
 		}
 		System.out.println("total = " + total);
-	
 	}
+}
 	
 	void test2() {
 		Scanner scan = new Scanner(System.in);
@@ -22,22 +23,20 @@ class Ex05{
 			System.out.println((i+1) + ".정수 입력: ");
 			arr[i] = scan.nextInt();
 		}
-		
 		int maxNum = 0;
 		for (int i=0; i<arr.length; i++) {
 			if (maxNum < arr[i]) {
-				maxNum = arr[i];
-			}
+			maxNum = arr[i];
 		}
-		
-		System.out.println("최대값 = " + maxNum);
+		}
+		System.out.println(maxNum + "최댓값");
 		scan.close();
 	}
 	
 }
 
-
-public class MethodEx05_문제 {
+*/
+public class MethodEx05_정답 {
 
 	public static void main(String[] args) {
 
